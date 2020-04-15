@@ -11,6 +11,7 @@ switch (getCountry.toUpperCase()) {
         break;
 
     case 'ЧИЛИ':
+        cost = 250;
         message = `Доставка в ${getCountry.toUpperCase()} будет стоить ${cost} кредитов`;
         break;
 
