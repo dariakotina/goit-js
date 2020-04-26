@@ -14,7 +14,6 @@ do {
 } while (input !== null);
 
 for (const number of numbers) {
-     total += Number(number);
+    total += Number(number);
 }
 alert(`Общая сумма чисел равна ${total}`);
- 
